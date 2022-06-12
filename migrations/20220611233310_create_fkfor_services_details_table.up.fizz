@@ -1,0 +1,4 @@
+add_foreign_key("services_details", "service_id", {"services": ["id"]}, {
+    "on_delete": "cascade",
+    "on_update": "cascade",
+})

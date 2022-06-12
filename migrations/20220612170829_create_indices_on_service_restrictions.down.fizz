@@ -1,0 +1,5 @@
+drop_index("service_restrictions", "service_restrictions_appointment_id_idx")
+drop_index("service_restrictions", "service_restrictions_restriction_id_idx")
+drop_index("service_restrictions", "service_restrictions_service_id_idx")
+drop_index("service_restrictions", "service_restrictions_start_date_end_date_idx")
+drop_index("service_restrictions", "service_restrictions_start_time_end_time_idx")

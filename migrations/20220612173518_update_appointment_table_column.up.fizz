@@ -1,0 +1,6 @@
+add_column("appointments", "scheduling_id", "integer", {})
+
+add_foreign_key("appointments", "scheduling_id", {"service_restrictions": ["id"]}, {
+    "on_delete": "cascade",
+    "on_update": "cascade",
+})

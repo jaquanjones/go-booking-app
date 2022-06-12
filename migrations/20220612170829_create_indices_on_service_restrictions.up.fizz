@@ -1,0 +1,7 @@
+add_index("service_restrictions", ["start_date", "end_date"], {})
+add_index("service_restrictions", ["start_time", "end_time"], {})
+add_index("service_restrictions", "appointment_id", {})
+add_index("service_restrictions", "service_id", {})
+add_index("service_restrictions", "restriction_id", {})
+
+

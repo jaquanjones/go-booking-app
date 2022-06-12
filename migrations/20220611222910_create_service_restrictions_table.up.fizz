@@ -1,0 +1,10 @@
+create_table("service_restrictions") {
+  t.Column("id", "integer", {primary: true})
+  t.Column("start_date", "date", {})
+  t.Column("end_date", "date", {})
+  t.Column("start_time", "time", {})
+  t.Column("end_time", "time", {})
+  t.Column("appointment_id", "integer", {})
+  t.Column("service_id", "integer", {})
+  t.Column("restriction_id", "integer", {})
+}

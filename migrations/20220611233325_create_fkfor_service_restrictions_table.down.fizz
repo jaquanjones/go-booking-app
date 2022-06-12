@@ -1,0 +1,2 @@
+drop_foreign_key("service_restrictions", "service_restrictions_schedule_restrictions_id_fk", {})
+drop_foreign_key("service_restrictions", "service_restrictions_services_id_fk", {})

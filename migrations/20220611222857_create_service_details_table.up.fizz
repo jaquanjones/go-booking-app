@@ -1,0 +1,8 @@
+create_table("services_details") {
+  t.Column("id", "integer", {primary: true})
+  t.Column("service_sub_name", "string", {"default": ""})
+  t.Column("service_duration_minutes", "integer", {})
+  t.Column("service_price", "integer", {})
+  t.Column("service_id", "integer", {})
+
+}

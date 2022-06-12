@@ -1,0 +1,5 @@
+drop_foreign_key("appointments", "appointments_customers_id_fk", {})
+drop_foreign_key("appointments", "appointments_businesses_id_fk", {})
+drop_foreign_key("appointments", "appointments_appointment_statuses_id_fk", {})
+drop_foreign_key("appointments", "appointments_services_details_id_fk", {})
+drop_foreign_key("appointments", "appointments_services_id_fk", {})

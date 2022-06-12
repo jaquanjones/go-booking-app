@@ -1,0 +1,3 @@
+drop_foreign_key("appointments", "appointments_service_restrictions_id_fk", {})
+
+drop_column("appointments", "scheduling_id")

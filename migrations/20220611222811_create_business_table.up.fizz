@@ -1,0 +1,9 @@
+create_table("businesses") {
+  t.Column("id", "integer", {primary: true})
+  t.Column("user_id", "integer", {})
+  t.Column("is_verified", "boolean", {"default": false})
+  t.Column("is_active", "boolean", {"default": true})
+  t.Column("business_name", "string", {"default": ""})
+  t.Column("has_physical_location", "boolean", {"default": false})
+  t.Column("business_location", "string", {"default": ""})
+}

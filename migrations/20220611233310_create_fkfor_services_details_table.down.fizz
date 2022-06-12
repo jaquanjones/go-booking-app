@@ -1,0 +1,1 @@
+drop_foreign_key("services_details", "services_details_services_id_fk", {})

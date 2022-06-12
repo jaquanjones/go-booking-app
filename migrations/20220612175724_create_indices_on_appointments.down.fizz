@@ -1,0 +1,5 @@
+drop_index("appointments", "appointments_business_id_idx")
+drop_index("appointments", "appointments_customer_id_idx")
+drop_index("appointments", "appointments_scheduling_id_idx")
+drop_index("appointments", "appointments_start_date_end_date_idx")
+drop_index("appointments", "appointments_start_time_end_time_idx")
