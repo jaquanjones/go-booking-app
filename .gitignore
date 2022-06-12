@@ -1,0 +1,7 @@
+.idea
+coverage.out
+timestable
+run.sh
+.DS_Store
+*.code-workspace
+database.yml
